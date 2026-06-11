@@ -1,0 +1,20 @@
+# Bỏ qua dữ liệu và mô hình
+data/
+artifacts/
+*.pth
+*.safetensors
+*.bin
+*.json
+*.pkl
+*.arpa
+
+# Bỏ qua tài liệu cá nhân
+*.txt
+*.md
+
+# Bỏ qua file rác hệ thống
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+__MACOSX/
